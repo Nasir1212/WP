@@ -392,6 +392,25 @@ margin-top: 1rem;
 }
 
 
-.budget-slider-col ul{
 
+
+.budget-section-main-div {
+    position: relative;
+}
+.image-icon-compnent-budget-section {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+.image-icon-compnent-budget-section {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
 }
