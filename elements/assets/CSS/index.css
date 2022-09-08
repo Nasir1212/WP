@@ -1,0 +1,397 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif
+
+}
+fieldset, legend {
+    all: revert;
+ }
+ html {
+    scroll-behavior: smooth;
+  }
+body {
+    color: white;
+    background-color:  #6D214F;
+    -webkit-font-smoothing: antialiased;
+  
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.grid{
+display: grid;
+
+}
+/* header{
+    color: #7ed6df;
+} */
+.header-menu-logo-container{
+grid-template-columns: 1fr 1.5fr;
+margin-top: 1rem;
+}
+
+.image-logo {
+    width: 7rem !important;
+    height: 4rem !important;
+}
+
+.headr-logo-row {
+    margin-left: 25%;
+    margin-top: 2rem;
+}
+
+
+
+.contact-info-container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    justify-content: space-between;
+}
+
+.contact-info {
+    height: 100%;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.menu {
+    display: grid;
+    grid-template-columns: repeat(6,1fr) ;
+    margin-top: 0.5rem;
+}
+
+.menu  li {
+   
+    list-style: none;
+    text-decoration: none;
+}
+.menu  a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.menu  a:hover{
+    color: #FFCC01;
+    border-bottom: 2px solid #A6A6A6;
+   
+}
+
+
+.incon-text {
+    margin-left: -1.3rem;
+    color: #FFCC01;
+}
+
+.incon-text i{
+    color: white;
+}
+
+
+
+
+
+
+
+.home-about-col .img-section {
+    position: relative;
+    background: #F1C40F;
+    height: 43rem;
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+.text-section {
+    position: absolute;
+    top: 1rem;
+    width: 28rem;
+    text-align: justify;
+    margin-left: 5rem;
+    margin: 3rem 7rem;
+}
+.text-section p {
+    color: #000000f2;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.text-section h3 {
+    font-size: 4rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-family: monospace;
+}
+
+.text-section h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.show-service-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+}
+
+.big-card-show-heading {
+    width: 28rem;
+    height: 30rem;
+}
+
+.small-card-show-service {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+
+.small-card-list .img-div {
+    width: 7rem;
+    height: 6rem;
+    margin: 2rem 4.2rem;
+}
+
+
+.small-card-list {
+    border: 3px solid #F1C40F;
+    text-align: center;
+    transition: 0.2s;
+    overflow: hidden;
+}
+.small-card-list h3 {
+    font-size: 1.2rem;
+}
+
+.small-card-list:hover {
+   cursor: pointer;
+   margin-top: 3px;
+}
+
+.big-card-show-heading {
+    background-color: #F1C40F;
+    width: 24rem;
+    overflow: hidden;
+    padding: 2rem;
+    margin-left: 2rem;
+}
+
+.big-card-show-heading p {
+    color: #000000fa;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.show-service-heading {
+    text-transform: uppercase;
+    padding: 2rem;
+    padding-top: 3rem;
+    color: #F1C40F;
+    font-family: fantasy;
+}
+.brand-section-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.brand-card-section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.8rem;
+}
+
+.brand-section-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    height: 33rem;
+}
+
+.brand-card-section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.8rem;
+}
+
+.imag-panda-div {
+    padding: 1rem 3rem;
+}
+
+/* .brand-overly-section */
+
+.brand-card-section-col{
+    position: relative;
+}
+.brand-card-section-col,.brand-overly-section {
+  
+    width: 16rem;
+    height: 16rem;
+}
+
+
+
+.brand-text-section p {
+    padding: 0rem !important;
+    margin: -0.5rem !important;
+}
+.brand-card-img-section {
+    height: 16rem;
+    
+}
+
+.brand-overly-section {
+    position: absolute;
+    top: 0rem;
+    width: 16rem;
+    height: 16rem;
+    background: #000000a8;
+    transition: 0.5s;
+}
+
+.brand-text-section {
+    padding: 4rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.panda-section {
+    padding: 2rem;
+}
+.panda-text-div {
+    padding-left: 3.2rem;
+}
+
+.panda-text-div h2 {
+    color: #F1C40F;
+    font-weight: bold;
+    font-size: 2.5rem;
+    overflow: hidden;
+    text-align: left;
+}
+
+.brand-card-section-col:hover .brand-overly-section{
+   
+    cursor: pointer;
+    width: 0rem;
+}
+@keyframes animationOne{
+    from{
+        gap: 3rem;
+    }
+    to{
+        gap: 0.5rem;
+    }
+}
+
+@keyframes backgroundEfect{
+    from{
+        background-color: #6D214F;
+    }
+    to{
+        background-color: #FFCC01;
+    }
+}
+.trusting-section{
+    transition: 0.4;
+   
+     /* duration timing-function delay iteration-count direction fill-mode; */
+}
+
+.trusting-section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    animation: animationOne;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+.trusting-section-card-col {
+    display: flex;
+    height: 13rem;
+    background: #F1C40F;
+    justify-content: space-between;
+    animation: backgroundEfect 2s 2s;
+}
+
+.trusting-card-img-section {
+    width: 12rem;
+    height: 100%;
+    float: right;
+}
+
+.trusting-card-text-section h4 {
+    color: #000000f2;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 17rem;
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+
+.trusting-section h3, .trusting-section h5 {
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+.trusting-section h3 {
+    color: #F1C40F;
+    margin-top: 4rem;
+}
+
+.budget-slider-container {
+    display: flex;
+    gap: 4rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.discount-icon-text-col {
+    display: flex;
+    justify-content: space-between;
+}
+.discount-icon-text-col .icon-img {
+    width: 5rem;
+    height: 4rem;
+}
+.discount-amount {
+    width: 19rem;
+    height: 4rem;
+    margin-left: -2rem;
+    text-align: center;
+    background: #F1C40F;
+    font-size: 2rem;
+    color: black;
+    margin-top: 1rem;
+}
+.discount-amount del{
+    color: white;
+}
+.budget-slider-col {
+    border: 2px solid;
+    border-radius: 1.5rem;
+    width: 19rem;
+    height: 26rem;
+    overflow: hidden;
+    padding: 2rem;
+}
+.list-sevecing-section {
+    background: white;
+    width: 19rem;
+    padding: 2rem;
+    z-index: 8;
+    margin-left: -2rem;
+    color: black;
+}
+
+
+.budget-slider-col ul{
+
+}
